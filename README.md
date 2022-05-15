@@ -18,7 +18,7 @@ Now close your eyes and throw darts at the dartboard / cardboard. Assume that th
 So, if we take the number of darts hitting the dart board (the circle), multiply it by 4, and divide it by the total number of darts thrown, we should get an estimate of π.
  
 Programming Details:
-We can simulate the throwing of darts by generating random numbers. Specifically, we generate two random numbers (real numbers) that range from -1 to 1. These numbers represent the coordinates of the location where the arrow hits. Then, determine if that location lies within the circle by calculating its distance from the origin – if it is 1 or less units away, it is in the circle. Repeat many times, and calculate  from the results.
+We can simulate the throwing of darts by generating random numbers. Specifically, we generate two random numbers (real numbers) that range from -1 to 1. These numbers represent the coordinates of the location where the arrow hits. Then, determine if that location lies within the circle by calculating its distance from the origin – if it is 1 or less units away, it is in the circle. Repeat many times, and calculate π from the results.
 
 We will use multiple threads to do this process several times in parallel, then combine the results to determine a final value for . Specifically, your program should do the following:
 	Inform the user what the program will be doing.
