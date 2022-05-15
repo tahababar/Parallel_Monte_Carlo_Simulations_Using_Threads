@@ -1,0 +1,2 @@
+# Parallel_Monte_Carlo_Simulations_Using_Threads
+Implementing parallel Monte Carlo simulations while practicing threads
